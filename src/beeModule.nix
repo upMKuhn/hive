@@ -23,7 +23,7 @@
 in {
   imports = [
     (erase ["nixpkgs" "config"] "Please set 'config.bee.pkgs' to a fully configured nixpkgs.")
-    (erase ["nixpkgs" "overlays"] "Please set 'config.bee.pkgs' to a nixpkgs - overlays included.")
+    #(erase ["nixpkgs" "overlays"] "Please set 'config.bee.pkgs' to a nixpkgs - overlays included.")
     (erase ["nixpkgs" "system"] "Please set 'config.bee.system', instead.")
     (erase ["nixpkgs" "localSystem"] "Please set 'config.bee.system', instead.")
     (erase ["nixpkgs" "crossSystem"] "Please set 'config.bee.system', instead.")
